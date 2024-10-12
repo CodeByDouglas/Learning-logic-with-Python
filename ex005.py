@@ -1,0 +1,6 @@
+print ('Incira um valor para saber seu antetcesor e seu sucesor: ')
+n1 = int(input())
+ant=int (n1-1)
+suc=int (n1+1)
+print('O anteecesor é {} '.format(ant))
+print('O sucesor é {}'.format(suc))

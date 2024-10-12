@@ -1,0 +1,10 @@
+v=(input('digite algo:'))
+
+print('a variavel é um espaço?', v.isspace())
+print('a variavel é numérirca ?', v.isnumeric())
+print('a variavel é string ?',v.isalpha())
+print('a variavel é Alfanúmerica? ',v.isalnum())
+print('a variavel é minúscula?',v.islower())
+print('a variavel é maiúscala?',v.isupper())
+print('a variavel está capitaliada ?',v.istitle())
+#print('Qual o tipo dessa variavel?', v.__class__)

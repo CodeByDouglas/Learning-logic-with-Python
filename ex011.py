@@ -1,0 +1,6 @@
+print('Calculador de aréa de pintura')
+base=float(input('Incira a largura da parede: '))
+altura=float(input('incira a altura da parede:'))
+area=float(base*altura)
+bt=float(area/2)
+print('A aréa da sua parede é {} m2 e serão necesarios {} baldes de tinta para pintala'.format(area,bt))
